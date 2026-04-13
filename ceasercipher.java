@@ -28,7 +28,6 @@ class CaserCipher
 				ctext = ctext+ch;
 			}
 		}
-		System.out.println("Encrypted text: "+ctext);
 		for(int i=0; i<ctext.length(); i++)
 		{
 			char ch;
@@ -46,6 +45,7 @@ class CaserCipher
 				dtext = dtext+ch;
 			}
 		}
+		System.out.println("Encrypted text: "+ctext);
 		System.out.println("Decrypted text: "+dtext);
 	}
 }		
